@@ -1,8 +1,9 @@
 package server
 
 import (
-	protos "Currency/protos"
 	"context"
+
+	protos "github.com/XoneRush/Currency/protos"
 
 	"github.com/hashicorp/go-hclog"
 )

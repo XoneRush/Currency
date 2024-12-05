@@ -1,9 +1,10 @@
 package main
 
 import (
-	protos "Currency/protos"
-	"Currency/server"
 	"net"
+
+	protos "github.com/XoneRush/Currency/protos"
+	"github.com/XoneRush/Currency/server"
 
 	"github.com/hashicorp/go-hclog"
 	"google.golang.org/grpc"
